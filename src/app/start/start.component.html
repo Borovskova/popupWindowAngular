@@ -1,0 +1,22 @@
+<!-- <div>
+    <button class="btn"(click)="openPopup()">open popup</button>
+</div> -->
+<div>
+    <table >
+   <thead>
+       <tr>
+       <th>Name</th>
+       <th>Age</th>
+       <th>Work</th>
+       </tr>
+   </thead>
+    <tbody>
+          <tr *ngFor="let player of players">
+            <td (click) ="openPopup()">{{player.name}}</td>
+            <td (click) ="openPopup()">{{player.age}}</td>
+            <td (click) ="openPopup()">{{player.work}}</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    </div>

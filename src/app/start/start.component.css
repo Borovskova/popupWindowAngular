@@ -1,0 +1,8 @@
+table{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(155, 223, 155);
+}
+table, td, tr, thead{
+border: solid green;
+}

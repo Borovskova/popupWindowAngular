@@ -1,0 +1,21 @@
+div {
+    position: relative;
+}
+
+table {
+    width: 500px;
+    height: 500px;
+}
+
+table,
+td,
+tr,
+thead {
+    border: solid;
+}
+
+button {
+    position: absolute;
+    left: 510px;
+    top: 10px;
+}

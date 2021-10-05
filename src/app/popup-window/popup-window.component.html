@@ -1,0 +1,22 @@
+<div>
+    <table >
+   <thead>
+       <tr>
+       <th>Name</th>
+       <th>Age</th>
+       <th>Work</th>
+       </tr>
+   </thead>
+    <tbody>
+          <tr id="test" *ngFor="let player of players">
+            <td>{{player.name}}</td>
+            <td>{{player.age}}</td>
+            <td>{{player.work}}</td>
+            </tr>
+            
+    </tbody>
+    </table>
+    <button (click)="onClose()">close</button>
+    </div>
+
+
